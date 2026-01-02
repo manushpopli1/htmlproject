@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            padding: 20px;
+        }
+        nav {
+            background-color: #181364;
+            padding: 5px;
+            height: 100px;
+           
+        }
+     
+        nav ol {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ol li {
+            display: inline;
+            margin-right: 15px;
+            float:right
+        }
+        nav ol li a {
+            text-decoration: none;
+            color: #f7f1f1;
+        }
+        nav ol li a:hover {
+            text-decoration: underline;
+        }
+        h3 {
+            color: #130505;
+            float: left;
+            margin-left: 10px;
+        }
+        .m1 {
+            height: 100px;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px;
+         text-align: center;        
+        }
+        button{
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+           
+            border-radius: 5px solid;
+            cursor: pointer;
+            text-decoration: black;
+        }
+        .m1{
+            background-image: url(https://plus.unsplash.com/premium_photo-1701646600168-5d599b350398?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhZGllbnQlMjBibHVlfGVufDB8fDB8fHww);
+        }
+        input[type=email], input[type=message], input[type=name] {
+            width: 50%;
+            padding: 8px 12px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #8e9ca1;
+            border-radius: 4px;
+            text-align: center;
+      }
+      .m4 input[type=submit] {
+            background-color: #12171f;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+            padding: 8px 12px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid #8e9ca1;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .m3{
+            background-color: #1dbef0;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .m3 h2{
+            text-align: center;
+        }
+        .m4 input[type=submit] {
+            background-color: #0a06fd;
+            color: rgb(255, 255, 255);
+            border:  solid 2px #8e9ca1;
+            cursor: pointer;
+            width: 50%;
+            padding: 8px 12px;
+        }
+
+    </style>
+</head>
+<body>
+   <div>
+     <nav>
+       
+      
+        <ol>
+           <li><a href="/index.html">index</a></li>
+           <li><a href="/about.html">about</a></li>
+           <li><a href="/contact.html">contact</a></li>
+           <li><a href="/webp.html">service</a></li>
+           <h3>my web page</h3>
+        </ol>
+     </nav>
+     <div class="m1">
+      <h1>Welcome to my Website</h1>
+       <p> We build modern and responsive websites </p>
+       <button>Get Started</button>
+     </div>
+   </div>
+   <h2 style="text-align: center;">our services</h2>
+
+    <div style="text-align: center;">
+      <button width="600" height="200" style="margin: 10px;">Web design</button>
+      <button width="600" height="200" style="margin: 10px;">Devlopment</button>
+      <button width="11600" height="200" style="margin: 10px;">Seo </button>
+     
+    </div>
+    <div class="m3">
+    <h2>About Us</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus repudiandae tempora, 
+        aliquid rerum cupiditate ratione beatae illum nobis? Aut,
+         hic atque libero consequatur minima ratione nesciunt obcaecati quos? Sunt, nam!</p>
+    </div>
+    <div class="m4">
+      <h2 style="text-align: center;">Contact us</h2>
+      <form style="text-align: center;">
+        <input type="text" id="name" name="name" placeholder="Name"><br><br>
+        <input type="email" id="email" name="email" placeholder="Email"><br><br>
+        <textarea id="message" name="message" rows="3" cols="87" placeholder="message"></textarea><br><br>
+        <input type="submit" value="Submit" width="50">
+      </form>
+    </div>
+
+    
+
+    
+</body>
+</html>
