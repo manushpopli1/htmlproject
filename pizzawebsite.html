@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <style>
         nav{
             background-color: red;
-            padding: 10px;
+            padding: 15px;
             text-align: right;
         }
         nav ul {
@@ -17,31 +18,63 @@
         }       
         nav ul li {
             display: inline;
-            margin: 2px;
+            margin: 10px;
         
         }
         nav ul li a {
-            color: white;
+            color: rgb(255, 255, 255);
             text-decoration: none;
             font-weight: bold;
         }
         button{
-            background-color: rgb(169, 207, 31);
-            border: none;
+            background-color: yellow;
             padding: 10px 20px;
-            margin-left: 10px;
-            cursor: pointer;    
+            margin-left: 5px;
+            cursor: pointer; 
+            border:solid;
+            border-radius: 5px;
+            border-color: yellow;   
         }
         .m1{
             float: left;
             color: white;
             font-size: 18px;
             font-weight: bold;
-            margin-left: 10px;
+            margin-left: 5px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
             
          
            
         }
+  
+
+
+
+
+.overlay-text {
+  position:absolute;
+  
+  top: 35%;
+  width: 1200px;
+  height:100px;
+ color: white;
+  background-color: rgba(1, 0, 0, 0.7); 
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: left;
+}
+.m2{
+    display:flex;
+    text-align: center;
+    gap:10px;    
+}
+.m2 img{
+    width: 200px;
+    height: 200px;
+}
 
     </style>
 </head>
@@ -50,7 +83,7 @@
        
        <nav>
         <ul>
-            <p class="m1">Pizza Palace </p>
+            <p class="m1"><img src="file:///C:/Users/manushpopli/Downloads/%E2%80%94Pngtree%E2%80%94pizza%20icon%20logo%20vector%20illustration_23164079.png" height="45" width="50"> Pizza Palace </p>
             <li><a href="#recipes">Pizza Recipes</a></li>
             <li><a href="#toppings">Toppings</a></li>
             <li><a href="#contact">Contact Us</a></li>
@@ -58,5 +91,23 @@
         </ul>
         </nav>
     </header>
+   <div class="image-container">
+  <img src="file:///C:/Users/manushpopli/Downloads/%E2%80%94Pngtree%E2%80%94hot%20and%20fresh%20pepperoni%20pizza_16477960.png" height="300" width="1265">
+  <div class="overlay-text">
+    Hot And Fresh Pizza<br>
+    Deliver Fast<br><br>
+    <button>Order Now</button>
+  </div>
+  <center><h2>Featured pizzas</h2></center>
+  <div class="m2">
+    
+        <img src="https://i0.wp.com/kristineskitchenblog.com/wp-content/uploads/2024/07/margherita-pizza-22.jpg?resize=1365%2C2048&ssl=1" height="200" width="200"></a><br><br><li><h2>Margherita pizza</h2><p>Lorem i adipisicing elit. Rem, sapiente. Fugit, dolor </li></p>
+        <img src="https://i0.wp.com/kristineskitchenblog.com/wp-content/uploads/2024/07/margherita-pizza-22.jpg?resize=1365%2C2048&ssl=1" height="200" width="200"></a><br><h2>Margherita pizza</h2><br>Lorem i adipisicing elit. <br>Rem, sapiente. Fugit, dolor <br>
+        <img src="https://i0.wp.com/kristineskitchenblog.com/wp-content/uploads/2024/07/margherita-pizza-22.jpg?resize=1365%2C2048&ssl=1" height="200" width="200"></a><br><h2>Margherita pizza</h2><br>Lorem i adipisicing elit. <br>Rem, sapiente. Fugit, dolor <br>
+
+    </ul>
+    
+  </div>
+</div>
 </body>
 </html>
